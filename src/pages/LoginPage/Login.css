@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'CUSTOMGISTESY';
+  src: url('../../fonts/Gistesy.woff');
+  font-style: normal;
+}
+.loginpagecontainer {
+    background-color: #FFEAF1;
+    padding: 4rem 0rem;
+  }
+  
+  .loginpagemaindiv {
+      margin: auto;
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(to bottom, #f39fbb, #e7b4c5), url('../../images/bgforhomee.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    z-index: -1;
+    display: flex;
+    border-radius: 7%;
+  }
+  
+  .leftlogindiv {
+    flex:0.5;
+    margin: auto;
+  }
+  
+  .rightlogindiv {
+    flex: 0.5; /* Occupy the right side */  
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+@media screen and (max-width:1000px) {
+  .loginpagemaindiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .leftlogindiv{
+    width: 100%;
+  }
+  .rightlogindiv{
+    display: none;
+  }
+}
+  .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-container .welcomeheading{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #7D2F92;
+font-family: Ardiga; 
+font-weight: 500;
+font-family: 'CUSTOMGISTESY',sans-serif;
+
+  }
+ .login-container .google-login{
+  margin-top: 2rem;
+    padding: 0.3rem 0.2rem;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.6rem;
+    background: #FFF;
+    border-color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(153, 77, 77, 0.31);
+ }
+ .login-container .google-login img{
+    flex: 0.1;
+    padding-left: 1rem;
+ }
+ .login-container .google-login p{
+flex: 0.9;
+margin: auto;
+font-size: 1.1rem;
+font-weight: 600;
+ }
+ .login-container input:not(.checkbox input){
+    margin-top: 2rem;
+    width: 65%;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    background: #FFF;
+    border-color: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(153, 77, 77, 0.31);
+ }
+ .login-container  #visiblepassword_notvisiblepassword{
+  width: 65%;
+  position: relative;
+
+ }
+ .login-container #visiblepassword_notvisiblepassword #password{
+  width: 100%;
+ }
+ .toggle-password-button {
+  position: absolute;
+  top: 75%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+ .login-container .checkboxplusforgot{
+    margin-top: 2rem;
+    width: 65%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .login-container .checkbox{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .login-container .checkbox div {
+    font-size: 1.05rem;
+    font-weight: 600;
+ }
+ .login-container .forgot-password{
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .login-container .forgot-password a{
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+ }
+
+ .login-container .loginBtnofLoginPage{
+    margin-top: 2rem;
+    width: 65%;
+}
+.login-container .loginBtnofLoginPage .login-button{
+    padding: 0.4rem;
+    width: 100%;
+    border-radius: 12px;
+    background: #231B44;
+    border: 1px solid #231B44;
+    color: #FFF;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+.login-container .dontaccountSignUp{
+    margin-top: 1.5rem;
+    width: 65%;
+    text-align: center;
+}
+.login-container .dontaccountSignUp p{
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: black;
+}
+.login-container .dontaccountSignUp a{
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .login-container .google-login,
+  .login-container .loginBtnofLoginPage,
+  .login-container .checkboxplusforgot,
+  .login-container input:not(.checkbox input),
+  .login-container .dontaccountSignUp,
+  .login-container  #visiblepassword_notvisiblepassword {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .login-container .google-login,
+  .login-container .loginBtnofLoginPage,
+  .login-container .checkboxplusforgot,
+  .login-container input:not(.checkbox input),
+  .login-container .dontaccountSignUp,
+  .login-container  #visiblepassword_notvisiblepassword {
+    width: 85%;
+  }
+  .loginpagemaindiv{
+    width: 95%;
+  }
+}
+
+.rightlogindiv .girlloginimage{
+
+    width: 100%;
+   
+}
+
+.otp-input input {
+  color: black; 
+}

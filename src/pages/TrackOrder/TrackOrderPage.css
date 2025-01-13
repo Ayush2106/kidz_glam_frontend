@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.trackordersection{
+    background: linear-gradient(to bottom, #f39fbb, #e7b4c5), url('../../images/bgforhomee.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    z-index: -1;
+  padding: 4rem 0rem;
+}
+.trackorderheading{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+
+}
+.trackordermain{
+    background-color: #f39fbb;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.trackordermain .tablerowtrack{
+    background-color: #f39fbb;
+}
+.trackordermain .tablerowtrack > * {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .trackordermain .tablerowtrackkk > * {
+    background-color: #f39fbb;
+    font-size: 1rem;
+    font-weight: 600;
+  }

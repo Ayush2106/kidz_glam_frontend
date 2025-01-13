@@ -1,0 +1,93 @@
+.admindashboard{
+    padding: 4rem 2rem;
+    background-color: #FDE2EA;
+}
+.mainadmindashboard{
+    display: flex;
+}
+.leftsideadmindashboard{
+    padding: 2rem 0rem;
+    flex: 0.25;
+    margin-right: 1rem;
+    background-color: #FFFFFF;
+
+}
+.rightsideadmindashboard{
+    flex: 0.75;
+    padding: 2rem;
+    background-color: #FFFFFF;
+}
+.mainrightsideadmindashboard{
+    margin-top: 2rem;
+}
+.dashboardredtext{
+    color: #CF4674;
+    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:950px) {
+    .mainadmindashboard{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightsideadmindashboard{
+        margin-top: 2rem;
+    }
+    
+}
+/* categoryform css */
+
+.inputofcategoryform{
+    width: 80%;
+    background-color: #FDE2EA;
+    color:#6D1F39;
+    font-weight: 500;
+
+}
+/* createcategory css  */
+.editbtnofcreatecategory{
+    background-color: #FDE2EA;
+    color:#6D1F39;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.createcategorytext{
+    color:#6D1F39;
+}
+
+/* createproduct css */
+.choosecatinproduct{
+    width: 80%;
+    background-color: #FDE2EA;
+    color:#6D1F39;
+    font-weight: 500;
+}
+
+/* product css */
+.cardofproductadmin{
+    margin-top: 1rem;
+}
+.producttextadmin{
+    text-decoration: none;
+    color: #6D1F39;
+    text-align: center;
+}
+.ayushproductsofadmindashb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid black; */
+    gap: 1rem } 
+
+    @media (max-width: 1300px) {
+        .ayushproductsofadmindashb{
+          grid-template-columns: repeat(2, 1fr);
+        }
+       }
+
+        @media (max-width: 720px) {
+          .ayushproductsofadmindashb {
+            grid-template-columns: repeat(1, 1fr);
+          }
+       }

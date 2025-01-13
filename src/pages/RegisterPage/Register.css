@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'CUSTOMGISTESY';
+  src: url('../../fonts/Gistesy.woff');
+  font-style: normal;
+}
+.registerpagecontainer {
+  background-color: #FFEAF1;
+  padding: 4rem 0rem;
+}
+
+.registerpagecontainer .error-message{
+color: rgb(250, 79, 79);
+}
+.registerpagemaindiv {
+
+    margin: auto;
+  height: 80%;
+  width: 80%;
+  background: linear-gradient(to bottom, #f39fbb, #e7b4c5), url('../../images/bgforhomee.png');
+  background-size: cover;
+  background-blend-mode: overlay;
+  z-index: -1;
+  display: flex;
+  border-radius: 7%;
+}
+
+.leftregisterdiv {
+  flex:0.5;
+  margin: auto;
+}
+
+.rightregisterdiv {
+
+  flex: 0.5;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media screen and (max-width:1000px) {
+.registerpagemaindiv{
+  display: flex;
+  flex-direction: column;
+}
+.leftregisterdiv{
+  width: 100%;
+}
+.rightregisterdiv{
+  display: none;
+}
+}
+.register-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-container .welcomeheading{
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #7D2F92;
+font-family: Ardiga; 
+font-weight: 500;
+font-family: 'CUSTOMGISTESY',sans-serif;
+
+}
+
+
+.register-container input:not(.checkbox input){
+
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  background: #FFF;
+  border-color: #FFF;
+  box-shadow: 4px 4px 4px 0px rgba(153, 77, 77, 0.31);
+}
+ .register-container #visiblepassword_notvisiblepassword{
+  width: 100%;
+  position: relative;
+
+ }
+ .register-container #visiblepassword_notvisiblepassword #password{
+  width: 100%;
+ }
+ .toggle-password-button {
+  position: absolute;
+  top: 75%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.register-container .registerBtnofregisterPage{
+  margin-top: 2rem;
+  width: 100%;
+}
+.register-container .registerBtnofregisterPage .register-button{
+  padding: 0.4rem;
+  width: 100%;
+  border-radius: 12px;
+  background: #231B44;
+  border: 1px solid #231B44;
+  color: #FFF;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.register-container .dontaccountSignUp{
+  margin-top: 1.5rem;
+  width: 65%;
+  text-align: center;
+}
+.register-container .dontaccountSignUp p{
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: black;
+}
+.register-container .dontaccountSignUp a{
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+.leftregisterdiv{
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.register-container{
+  width: 95%;
+}
+
+}
+@media screen and (max-width: 770px) {
+
+.registerpagemaindiv{
+  width: 96%;
+}
+.register-container, #visiblepassword_notvisiblepassword{
+  width: 95%;
+}
+}
+
+.rightregisterdiv .girlregisterimage{
+  width: 100%;
+}
+

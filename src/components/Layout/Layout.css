@@ -1,0 +1,10 @@
+
+.list-group-item.active{
+    background-color: #FDE2EA;
+    color: #CF4674;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.dashboard-menu{
+    margin: 1rem 0rem;
+}

@@ -1,0 +1,611 @@
+@font-face {
+  font-family: 'CUSTOMTHESEAS';
+  src: url('../../fonts/Fontspring-DEMO-theseasons-reg.woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CUSTOMGISTESY';
+  src: url('../../fonts/Gistesy.woff');
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.bannersectioncontainer {
+  position: relative;
+  background: linear-gradient(to bottom, #f39fbb, #e7b4c5), url('../../images/bgforhomee.png');
+  background-size: cover;
+  background-blend-mode: overlay;
+  z-index: -1;
+}
+
+.bannermain {
+  display: flex;
+}
+
+.bannerleft {
+  padding-left: 3rem;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bannerright {
+  flex: 0.5;
+  position: relative;
+  overflow: hidden;
+}
+
+.girlwithbg {
+  position: relative;
+}
+
+.pink-semicircle {
+  position: absolute;
+  top: 43%;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  width: 85%;
+  height: 100%;
+  background-color: #FFCFDF;
+  border-radius: 100% 100% 0 0;
+  z-index: -1;
+}
+
+.flowerimage {
+  position: absolute;
+  bottom: 25%;
+  right: 0%;
+  width: 10%;
+}
+
+.bannerright img:not(.flowerimage) {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+
+
+ .bannerLeftHeading {
+  color: #231B44;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-family: 'CUSTOMTHESEAS',sans-serif
+}
+.bannerSubHeading{
+  color: #641E76;
+  font-weight: 500;
+  font-family: 'CUSTOMTHESEAS',sans-serif;
+
+}
+.bannerleftsubheading {
+  color: #4A1956;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+.bannersectioncontainer .bannerleftsubheading{
+  margin-bottom: 2rem;
+
+}
+
+.btntrynow button {
+  border: #FFFFFF;
+  background-color: #231B44;
+  padding: 1.6% 5%;
+  border-radius: 0.5rem;
+  color: white;
+font-family: Helvetica;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+button:hover{
+  cursor: pointer;
+}
+#gistesyfont{
+  font-family: 'CUSTOMGISTESY',sans-serif;
+}
+@media screen and (min-width:1250px) {
+  .bannerLeftHeading{
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .bannerSubHeading{
+    font-size: 2.5rem;
+  }
+  .bannerleftsubheading{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+ }
+@media screen and (min-width: 1500px) {
+  .bannerLeftHeading {
+      font-size: 4.1rem;
+      line-height: 5rem;
+  }
+  .bannerSubHeading{
+    font-size: 2.5rem;
+  }
+  .bannerleftsubheading {
+      font-size: 1.5rem;
+  }
+  .btntrynow button {
+font-size: 1.5rem;
+padding: 1rem 4rem;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  .bannerLeftHeading{
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .bannerSubHeading{
+    font-size: 2.1rem;
+  }
+  .bannerleftsubheading{
+    font-size: 1.1rem;
+  }
+  .btntrynow button{
+    padding: 1.4% 3.7%;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .bannerLeftHeading {
+      font-size: 2.6rem;
+      line-height: 3rem;
+  }
+  .bannerSubHeading{
+    font-size: 1.8rem;
+  }
+  .bannerleftsubheading {
+      font-size: 1rem;
+  }
+  .btntrynow button{
+    padding: 1.2% 3.5%;
+    font-size: 1.3rem;
+  }
+}
+
+/* viewandcustombrushsection ................................................................................ */
+.emptyspacefornav{
+  padding: 4rem;
+}
+.viewcustomisebrushsection{
+  background-color: #FAF5F2;
+}
+.viewcustom{
+display: flex;
+justify-content: space-between;
+
+}
+.viewbrush{
+  padding-left: 4rem;
+  flex: 0.32;
+}
+
+.viewbrush .bannerleftsubheading , .custombrush .bannerleftsubheading{
+  font-style: italic;
+}
+.custombrush{
+  padding-right: 4rem;
+  flex: 0.32;
+}
+.sliderviewcustom{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+ .slideviewarrowww{
+  background-color:#F2E5EC;
+  width: 7%;
+  border-radius: 50%;
+  padding: 0.8rem 2rem;
+}
+
+.brushsliderimage{ 
+  width: 37%;
+  margin-top: -6rem;
+  text-align: center;
+}
+.arrowviewcustomrespformobile .slideviewarrow{
+  background-color: white;
+  border-radius: 100%;
+  padding: 0.5rem 1rem;
+  width: 13%;
+  margin-left: 1rem;
+}
+@media screen and (max-width:1300px) {
+  .brushsliderimage{
+    margin-top: -6rem;
+  }
+   .slideviewarrowww{
+    width: 8%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .brushsliderimage{
+    margin-top: -4rem;
+  }
+  .viewbrush{
+    padding-left: 4rem;
+    flex: 0.42;
+  }
+  .custombrush{
+    padding-right: 4rem;
+    flex: 0.42;
+  }
+  .brushsliderimage{
+    margin-top: 1rem;
+  }
+ .slideviewarrowww{
+    width: 9.5%;
+  }
+}
+.brushsetImage img{
+  width: 100%;
+}
+@media screen and (min-width:771px) {
+  .viewcustomMobile{
+    display: none;
+  }
+  .arrowviewcustomrespformobile{
+    display: none;
+  }
+  .footersectionmain #gistesyfont{
+    display: none;
+  }
+}
+@media screen and (max-width:770px) {
+  .viewcustomisebrushsection{
+    display: none;
+  }
+  .viewcustomMobile{
+    background-color: #FFEAF1;
+    background: linear-gradient(to bottom left, #FFD8E7 50%, #FFEAF1 50%);
+   text-align: center;
+   padding: 1rem 5rem  ;
+   padding-top: 3rem;
+  }
+  .footersectionmain img{
+    width: 27%;
+  }
+  .footersectionmain #contacthidea{
+    display: none;
+  }
+}
+@media screen and (max-width:550px) {
+  .arrowviewcustomrespformobile .slideviewarrow{
+    width: 18%;
+  }
+}
+@media screen and (max-width:460px) {
+  .arrowviewcustomrespformobile .slideviewarrow{
+    width: 24%;
+  }
+}
+/* ourbestbruses sectiion.................................... */
+.ourbestbrushessecton{
+  background: linear-gradient(to bottom, #f1e6ec, #e7b4c5), url('../../images/bgforhomee.png');
+  background-size: cover;
+  background-blend-mode: overlay;
+  z-index: -1;
+  padding-bottom: 4rem;
+}
+.ourbestmain{
+  text-align: center;
+}
+
+.ourbestmain p{
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #4A1956;
+  text-decoration: underline;
+}
+.ourbestmain p:hover{
+cursor: pointer;
+}
+.designofourbest{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* videosection................................................ */
+.videosectioncontainer{
+  /* background: linear-gradient(to right,#f3e0e4 , #f3cad8),url('../../images/bgimagevideosection.png'); */
+  background-size: cover;
+  background-blend-mode:overlay;
+  z-index: -1;
+  background-color: #FFF7FA;
+}
+.videosectionmaincontainer{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videosectionmaincontainer video {
+  width: 100%;
+  height: 90%;
+}
+@media screen and (max-width:1200px){
+  .videosectionmaincontainer{
+    height: 55vh;
+  }
+}
+@media screen and (max-width:950px){
+  .videosectionmaincontainer{
+    height: 45vh;
+  }
+}
+@media screen and (max-width:650px){
+  .videosectionmaincontainer{
+    height: 35vh;
+  }
+}
+@media screen and (max-width:420px){
+  .videosectionmaincontainer{
+    height: 30vh;
+  }
+}
+/* aboutus section .................................................................. */
+.aboutussection{
+  background-color: #FFEDF3;
+  padding-bottom: 4rem;
+  /* border: 2px solid black; */
+  position: relative;
+  z-index: -1;
+}
+.aboutussection .aboutmotifleft{
+  position: absolute;
+  bottom:0;
+  left: 0;
+}
+.aboutussection .aboutmotifright{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.aboutussection .bannerLeftHeading{
+  text-align: center;
+}
+
+.aboutusmaincontainer{
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+
+}
+.aboutusmaincontainer .aboutleft {
+  flex: 0.5;
+  padding-left: 3rem;
+  /* border: 2px solid black; */
+
+}
+.aboutusmaincontainer .aboutright{
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid black; */
+
+}
+.aboutusmaincontainer .aboutright img{
+width: 60%;
+border-radius: 0  40% 0 0;
+}
+
+@media screen and (max-width:1000px) {
+  
+.aboutusmaincontainer{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutusmaincontainer .aboutleft {
+  flex: 0.5;
+  padding-left: 1rem;
+}
+.aboutusmaincontainer .aboutright img{
+  width: 70%;
+  border-radius: 0  40% 0 0;
+  }
+}
+@media screen and (max-width:770px) {
+  .aboutusmaincontainer{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutusmaincontainer .aboutleft {
+    flex: 0.5;
+    padding: 3rem 4rem;
+  }
+  .aboutusmaincontainer .aboutright img{
+    width: 60%;
+    border-radius: 0  40% 0 0;
+    }
+}
+@media screen and (max-width:500px) {
+  .aboutusmaincontainer .aboutleft {
+    flex: 0.5;
+    padding: 3rem 2rem;
+  }
+}
+
+
+/* footeer Section ........................................................................ */
+.footerSection{
+  background-color: #FFF6F9;
+  padding-bottom: 4rem;
+}
+
+.footersectionmain{
+  padding: 3rem 5rem;
+}
+.footersectionmain img{
+  width: 18%;
+margin-bottom: 1rem;
+}
+.footersectionmain .underline{
+  padding: 1px;
+  background-color: #CF4674;
+  margin-bottom: 1rem;
+
+}
+.mainmainfooteritemdiv{
+  display: flex;
+  /* border: 2px solid black; */
+}
+.mainfooteritemdiv{
+  /* width: 70%; */
+  flex: 0.75;
+display: flex;
+justify-content: space-between;
+/* border: 2px solid black; */
+}
+.mainmainfooteritemdiv .mainfooterlogos{
+  flex: 0.25;
+  display: flex;
+  justify-content: flex-end;
+}
+.mainmainfooteritemdiv .mainfooterlogos .logosfootermaindiv{
+  width: 70%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.mainmainfooteritemdiv .mainfooterlogos .logosfootermaindiv .footerLOGO{
+  font-size: 2rem;
+}
+.mainmainfooteritemdiv .mainfooterlogos .logosfootermaindiv .footerLOGO:hover{
+cursor: pointer;
+}
+.mainfooteritemdiv .firstmainfooterdiv{
+  order: -1;
+}
+.mainfooteritemdiv .bannerSubHeading{
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.mainfooteritemdiv .bannerleftsubheading{
+  font-size: 1rem;
+}
+
+@media screen and (max-width:1250px){
+  .footersectionmain{
+    padding: 3rem 2rem;
+  }
+  /* .mainfooteritemdiv{
+    width: 75%;
+  } */
+}
+@media screen and (max-width:840px){
+  .footersectionmain{
+    padding: 3rem 2rem;
+  }
+  .mainfooteritemdiv .bannerSubHeading{
+    font-size: 0.9rem;
+  }
+  
+  .mainfooteritemdiv .bannerleftsubheading{
+    font-size: 0.7rem;
+  }
+}
+
+  @media screen and (max-width:750px){
+   
+    .mainfooteritemdiv .bannerSubHeading , .mainfooteritemdiv .bannerleftsubheading{
+      text-align: center;
+    }
+    .mainfooteritemdiv .bannerleftsubheading{
+      margin-bottom: 0.3rem;
+    }
+    .mainmainfooteritemdiv{
+      display: flex;
+      flex-direction: column;
+    }
+    .mainmainfooteritemdiv .mainfooterlogos{
+      margin: 0 auto;
+      width: 50%;
+      margin-top: 2rem;
+ }
+    .mainmainfooteritemdiv .mainfooterlogos .logosfootermaindiv{
+      width: 100%;
+    }
+    .footersectionmain img{
+      width: 22%;
+    }
+    .mainmainfooteritemdiv .mainfooterlogos .logosfootermaindiv .footerLOGO{
+      font-size: 1.2rem;
+    }
+   
+}
+@media screen and (max-width:400px) {
+  .mainfooteritemdiv .bannerSubHeading{
+    font-size: 0.8rem;
+  }
+  
+  .mainfooteritemdiv .bannerleftsubheading{
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width:300px) {
+  .mainfooteritemdiv{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+  }
+  .footersectionmain img{
+    width: 37%;
+  }
+  
+}
+
+/* responsiveness............................................................. */
+@media screen and (max-width:770px){
+  .bannermain{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .bannerleft{
+    padding: 0rem 3rem;
+  }
+  .btntrynow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .flowerimage{
+    width: 15%;
+  }
+  .bannerright img:not(.flowerimage) {
+width: 70%;
+  }
+  .pink-semicircle {
+    width: 100%;
+    left: 0%;
+  }
+}
+@media screen and (max-width:500px) {
+  .bannerleft{
+    padding: 0rem 2rem;
+  }
+  .bannerright img:not(.flowerimage) {
+    width: 80%;
+      }
+}

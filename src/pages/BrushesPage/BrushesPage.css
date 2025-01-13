@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'CUSTOMGISTESY';
+    src: url('../../fonts/Gistesy.woff');
+    font-style: normal;
+  }
+  .bannerLeftHeading {
+    color: #231B44;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-family: 'CUSTOMTHESEAS',sans-serif;
+    font-size: 3rem;
+  }
+
+.brushpagecontainer{
+    background-color: #FFF1F5;
+}
+.brushpagevideosection {
+    overflow: hidden; 
+}
+
+.brushpagevideosection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.brushpagemaincontainer{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.leftbrushpagemaincontainer{
+    flex: 0.2;
+    font-weight: 500;
+    padding: 2rem 3.5rem;
+    /* border: 2px solid black; */
+
+}
+
+.rightbrushpagemaincontainer{
+    flex: 0.8;
+    /* border: 2px solid black; */
+
+}
+
+.container{
+    padding: 2%;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap:3rem;
+}
+/* .container .box-container .maincardofeachproductofbrushpage{
+    border: 2px solid black;
+} */
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius:  40% 0 0 0 ;
+    background: #FFE6EF;
+    text-align: center;
+    padding:0.7rem 0rem ;
+}
+
+.container .box-container  .pricewishcart{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 0.8rem;
+font-weight: 500;
+}
+.container .box-container .pricewishcart .leftpricewishcart{
+display: flex;
+flex-direction: column;
+}
+
+.container .box-container .box img{
+    height: 18rem;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btnliveviewofbrushpage{
+    border: none;
+    margin-top: 10px;
+    display: inline-block;
+    background:white;
+    color:black;
+    font-size: 17px;
+    padding: 0.1rem 1rem;
+    border-bottom-right-radius: 2rem;   
+
+}
+
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+.eachbrushnameemonsterrat{
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.eachbrushpricemonsterrat{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.eachbrushinconsterrat{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+.rigtpricewishcart:hover{
+    cursor: pointer;
+}
+@media (min-width:812px){
+    .brushpagecontainer #gistesyfont{
+        display: none;
+    }
+}
+@media (max-width:812px){
+.brushpagecontainer  .brushpagevideosection{
+    display: none;
+}
+    .leftbrushpagemaincontainer{
+        display: none;
+    }
+    .rightbrushpagemaincontainer{
+        margin:0 auto;
+        flex: 1;
+    }
+    .container .box-container{
+        grid-template-columns: repeat(2, 1fr); /* Display two products in a row */
+    }
+}
+@media (max-width:768px) {
+    #brushcontaineroverrride{
+        padding: 2rem;
+max-width: none;
+    }
+    .container .box-container .box img{
+        height: 15rem;
+        width: 80%;
+    }
+}
+@media (max-width:550px) {
+    #brushcontaineroverrride{
+        padding: 1rem;
+max-width: none;
+    }
+    .container .box-container{
+        gap:0.5rem;
+    }
+    .container .box-container .box .btnliveviewofbrushpage{
+        width: 70%;
+        padding: 0.1rem;
+    
+    }
+}
+.container .box-container .imageandliveviewofbrushpage{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container .box-container .brushpageimgindiv{
+
+    width:80% ;
+    padding: 0.3rem;
+
+}
+.container .box-container .btnliveviewofbrushpage{
+    width: 50%;
+    margin: 0 auto;
+}
+.container .loadmoreofbrushpage{
+    background-color: #FFE6EF;
+    display: flex;
+    align-items: center;
+}

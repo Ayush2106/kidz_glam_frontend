@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.sliderwalasection{
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+}
+
+.portfolio-slider{
+margin-top: 2rem;
+
+}
+
+.swiper-slide img{
+    /* width: 15rem; */
+    width: 80%;
+    border-radius: 0  40% 0 0;
+    margin-bottom: 1rem;
+}
+.swiper-slide .bannerleftsubheadingg{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+}
+@media screen and (max-width:450px) {
+    
+    .swiper-button-prev, .swiper-button-next{
+width: 15%;    }
+}

@@ -1,0 +1,274 @@
+.topmostcartcontainer{
+    background-color: #FFF5F8;
+}
+.cartmaincontainer{
+    background-color: #FFEDF3;
+padding: 2rem 5rem;
+display: flex;
+}
+@media screen and (max-width:1300px) {
+    .cartmaincontainer{
+        padding: 3rem 1rem;
+    }
+}
+
+.cartmaincontainer .leftcartdivcontainer{
+    flex: 0.58;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    padding: 2rem;
+}
+#cartheadingatsmallscreenonly{
+    font-size: 2.5rem;
+    color: #7D2F92;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight:550;
+}
+ .cartheadingleftcartdivcontainer{
+border-bottom: 1px solid black;
+padding-bottom: 0.1rem;
+margin-bottom: 1rem;
+font-weight: 550;
+font-size: 1.2rem;
+}
+.cartmaincontainer .leftcartdivcontainer .cartproductimg_name_price_btns{
+    padding-bottom: 0.1rem;
+    margin-bottom: 1.5rem;  
+    display: flex;
+justify-content: space-between;
+}
+.imganddetailsatcartpage{
+    flex: 0.8;
+    display: flex;
+}
+.firstdivofcartproductimg_name_price_btns{
+    width: 40%;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #FFE1EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+.firstdivofcartproductimg_name_price_btns img{
+    width: 98%;
+    height: 100%;
+}
+.seconddivofcartproductimg_name_price_btns{
+    /* border: 2px solid black; */
+    margin-left: 1rem;
+}
+.seconddivofcartproductimg_name_price_btns p{
+    margin-bottom: 0.1rem; 
+}
+.seconddivofcartproductimg_name_price_btns .secondrsinstock{
+    display: flex;
+}
+.seconddivofcartproductimg_name_price_btns .firstheadingseconddiv{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirddivofcartproductimg_name_price_btns{
+    flex: 0.2;
+    text-align: center;
+}
+.cartmaincontainer .rightcartdivcontainer{
+    flex: 0.4;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+.countercartpagediv{
+    margin-top: 1rem;
+    background-color: #FFE1EA;
+    padding: 0.2rem 0.1rem;
+    width: fit-content;
+    border-radius: 0.7rem;
+
+}
+.countercartpagediv span{
+    background-color: white;
+    padding: 0.05rem 0.4rem;
+    border-radius: 0.5rem;
+}
+.countercartpagediv button{
+    background-color: #FFE1EA;
+    padding: 0rem 0.3rem;
+    margin:0 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.deliveryLogoplusprice{
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+}
+.deliverypromoplusapply{
+    padding: 0rem 0.1rem 0rem 0.5rem;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+}
+.pricingcartpage{
+    margin-top: 1rem;
+}
+.twopartpricingcartpage{
+    padding: 0rem 0.1rem 0rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.procesdcartpage{
+    background-color: #231B44;
+    padding: 0.6rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #ffff;
+    text-align: center;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.carttopaymentshifterpage .topay_price{
+display: flex;
+justify-content: space-between;
+font-family: Helvetica, sans-serif;
+padding: 0rem 0.4rem;
+}
+.toPayofleftcart{
+    padding-left: 0.2rem;
+    font-family: Helvetica, sans-serif;
+
+}
+.priceofleftcart{
+    font-family: Helvetica, sans-serif;
+
+}
+.pinkcheckoutshifteratlasttoleft{
+
+    background-color: #FFF5F8;
+    padding: 1rem 0.7rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+.pinkcheckouttopayandproceed{
+    display: flex;
+
+}
+.pinkcheckouttopayandproceed .procesdcartpagediv{
+    flex: 0.7;
+    padding: 0.4rem 0rem;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.pinkcheckouttopayandproceed .topayandpricepinkcheckut{
+    flex: 0.3;
+}
+.paymentpagecontainer{
+    padding: 1rem 3rem;
+    background-color: #FFF9FB;
+
+}
+@media screen and (max-width:850px) {
+    .cartmaincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightcartdivcontainer{
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width:500px) {
+    .thirddivofcartproductimg_name_price_btns .countercartpagediv{
+        display: none;
+    }
+    .carttopaymentshifterpage , .pinkcheckoutshifteratlasttoleft{
+        display: none;
+    }
+    #cartheadingatsmallscreenonly{
+        display: none;
+    }
+   
+}
+@media screen and (max-width:500px) {
+    #cartheadingleftcartdivcontainer{
+        display: none;
+    }
+    .cartmaincontainer{
+        padding: 1.5rem 1 1 1;
+        background-color: #FFCDDB;
+        border-radius: 5rem 0 0 0;
+    }
+
+    .cartmaincontainer .leftcartdivcontainer{
+        margin-right: 0.1rem;
+        padding: 1rem;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .cartmaincontainer .rightcartdivcontainer{
+display: none;
+  }
+    .firstdivofcartproductimg_name_price_btns{
+        padding: 0rem;
+
+    }
+    .firstdivofcartproductimg_name_price_btns img{
+        width: 100%;
+
+    }
+    .seconddivofcartproductimg_name_price_btns .countercartpagediv{
+        display: none;
+    }
+    .seconddivofcartproductimg_name_price_btns .secondrsinstock{
+        flex-direction: column;
+    }
+    .seconddivofcartproductimg_name_price_btns .pillarsecondsinstock{
+        display: none;
+    }
+   .countercartpagediv{
+    padding: 0rem;
+    margin: 0 auto;
+   }
+   .imganddetailsatcartpage{
+    flex: 0.7;
+   }
+   .thirddivofcartproductimg_name_price_btns{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+   }
+   .paymentpagecontainer{
+    padding: 1rem 1.5rem;
+   }
+   .pinkcheckouttopayandproceed .procesdcartpagediv{
+    flex: 0.6;
+    padding: 0.4rem 0rem;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.pinkcheckouttopayandproceed .topayandpricepinkcheckut{
+    flex: 0.4;
+}
+}
+@media screen and (max-width:350px) {
+    .firstdivofcartproductimg_name_price_btns{
+        padding: 0rem;
+    }
+    .firstdivofcartproductimg_name_price_btns img{
+        width: 100%;
+    }
+    .cartproductimg_name_price_btns{
+        flex-direction: column;
+        }  
+}
+
+
