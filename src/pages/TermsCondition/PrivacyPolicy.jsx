@@ -52,7 +52,7 @@ function PrivacyPolicy() {
 
                         {/* agdhslkfdmdl */}
                         <Typography variant="h5" style={{ fontWeight: 'bold' }}>
-                        KidzGlam Corner Privacy Policy                        </Typography>
+                        KidzGlam Site Corner Privacy Policy                        </Typography>
                         <Typography variant='body2' style={{}}>
                         KidzGlam Corner ("we," "us," or "our") respects your privacy and is committed to protecting your personal information.
                         </Typography>
