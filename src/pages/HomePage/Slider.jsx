@@ -3,9 +3,9 @@ import './Slider.css';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import food from '../../images/img1ob.png'
-import nextNetflix  from '../../images/img1ob.png'
-import money from '../../images/img2ob.png'
-import moviebox  from '../../images/img3ob.png'
+import nextNetflix  from '../../images/toy1.jpg'
+import money from '../../images/imagestoy4.jfif'
+import moviebox  from '../../images/toy3.jpg'
 import rightArrow from '../../images/Arrow3.png'
 import leftArrow from '../../images/Arrow4.png'
 
@@ -56,57 +56,42 @@ function Slider() {
 
 <SwiperSlide className='swiper-slide'>
         <img 
-        // onClick={(e) => {
-        //   e.preventDefault();
-        //   window.location.href='https://ecommerce-project-frontend-ruby.vercel.app/';
-        //   }}
+        
         src = {nextNetflix} alt = ""/>
-        <div className='bannerleftsubheadingg'>ABC BRUSH</div>
+        <div className='bannerleftsubheadingg'>Rainbow Teddy</div>
         </SwiperSlide> 
 
         <SwiperSlide className='swiper-slide'>
         <img 
-        //  onClick={(e) => {
-        //   e.preventDefault();
-        //   window.location.href='https://foodreciepebyayushsingla.netlify.app/';
-        //   }}
+        
         src = {food} alt = ""/>
-                <div className='bannerleftsubheadingg'>DEF BRUSH</div>
+                <div className='bannerleftsubheadingg'>Homify toy</div>
 
         </SwiperSlide>
 
  <SwiperSlide className='swiper-slide'>
         <img 
-        // onClick={(e) => {
-        //   e.preventDefault();
-        //   window.location.href='https://gregarious-sopapillas-c0d429.netlify.app/';
-        //   }}
+      
         src = {moviebox} alt = ""/>
-                <div className='bannerleftsubheadingg'>GHI BRUSH</div>
+                <div className='bannerleftsubheadingg'>Cranny Box</div>
 
         </SwiperSlide> 
 
        
         <SwiperSlide className='swiper-slide'>
         <img 
-          // onClick={(e) => {
-          //   e.preventDefault();
-          //   window.location.href="https://fastidious-chimera-2cecb7.netlify.app/";
-          //   }}
+        
         src = {money} alt = ""/>
-                        <div className='bannerleftsubheadingg'>JKL BRUSH</div>
+                        <div className='bannerleftsubheadingg'>Toyicoius</div>
 
         </SwiperSlide>
 
         
         <SwiperSlide className='swiper-slide'>
         <img 
-          // onClick={(e) => {
-          //   e.preventDefault();
-          //   window.location.href="https://next-movie-webite-68iy.vercel.app/";
-          //   }}
+       
         src = {nextNetflix} alt = ""/>
-                        <div className='bannerleftsubheadingg'>MNO BRUSH</div>
+                        <div className='bannerleftsubheadingg'>Monotlithic </div>
 
         </SwiperSlide>
 
