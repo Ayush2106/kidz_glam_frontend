@@ -12,8 +12,7 @@ import { AiOutlineReload } from "react-icons/ai";
 import { useCart } from '../../context/cart';
 import { toast } from 'react-toastify';
 import BrushModal from './BrushModal/BrushModal';
-import SkeletonImage from 'antd/es/skeleton/Image';
-import SkeletonInput from 'antd/es/skeleton/Input';
+
 
 
 function BrushesPage() {
